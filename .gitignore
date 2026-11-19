@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / ambient Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments & caches
+.env
+.venv
+env/
+venv/
+ENV/
+.cache/
+
+# Editor and OS artifacts
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# Compiled documents / PDFs (allow committed reports)
+!report/*.pdf
+!*.pdf
+
+# Data: Model outputs, large extractions, raw caches, binary/columnar files
+*.nc
+*.parquet
+data/*.nc
+data/*.parquet
+data/wind_extracted/
+data/extracted_station_timeseries_*.csv
+data/station_timeseries_*.csv
+data/kartverket_*.csv
+!data/kartverket_stations.csv
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+
